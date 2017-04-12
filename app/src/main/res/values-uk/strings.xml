@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Диктофон</string>
+    <string name="category_player">Прослухати</string>
+    <string name="category_recorder">Записати</string>
+    <string name="memory_is_busy">Пам\'ять зайнята. Спробуйте пізніше!</string>
+    <string name="new_voice_file_created">" створено!"</string>
+    <string name="pick_a_voice_file">Виберіть файл</string>
+    <string name="start_recording">Почати запис!</string>
+    <string name="stop_recording_and_save">Зупинити запис і зберегти!</string>
+    <string name="voice_name">Запис_</string>
+    <string name="voice_list">Голосові файли</string>
+    <string name="player_title">Список файлів</string>
+    <string name="recorder_title">Диктофон</string>
+    <string name="toast_pick_file">Виберіть файл зі списку!</string>
+    <string name="delete_voice">Видалення</string>
+    <string name="delete_voice_message">Продовжити видалення?</string>
+    <string name="delete_voice_title">Видалити</string>
+    <string name="cancel_deleting">Відмінити</string>
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.simpleaudiorecoder.PlayerActivity"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+      </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:paddingTop="24dp"
+        android:background="@color/colorPrimary"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp"
+            >
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="48dp"
+
+                    >
+
+                <ImageView
+                    android:id="@+id/play_image_view"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                   android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_play_arrow_black_24px" />
+                    <ImageView
+                        android:id="@+id/pause_image_view"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_pause_black_24px"
+                        android:visibility="invisible"/>
+
+        </FrameLayout>
+
+            <SeekBar
+                android:id="@+id/player_seek_bar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="20"
+                android:thumbTint="@android:color/white"
+                android:progressTint="@android:color/white"
+                android:layout_marginLeft="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/voice_name_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:textSize="48sp"
+                android:text="@string/pick_a_voice_file"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-thin"
+                />
+
+            <Chronometer
+                android:id="@+id/player_chronometer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="end"
+                android:textSize="48sp"
+                android:format="00:%s"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-thin"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="/"
+                android:gravity="center_horizontal"
+                android:textSize="48sp"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-thin"
+                />
+            <TextView
+                android:id="@+id/voice_duration_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="start"
+                android:text="00:00:00"
+                android:textSize="48sp"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-thin"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

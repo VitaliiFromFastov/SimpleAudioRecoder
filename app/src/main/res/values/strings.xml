@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">VoiceRecorder</string>
+
+    <string name="category_recorder">Record</string>
+
+    <string name="category_player">Play</string>
+
+    <string name="stop_recording_and_save">Stop recording and save!</string>
+
+<string name="voice_name">Voice_</string>
+    
+    <string name="voice_extension" translatable="false">.3gp</string>
+
+    <string name="memory_is_busy">Memory is busy. Try again later!</string>
+
+    <string name="start_recording">Start recording!</string>
+
+    <string name="new_voice_file_created">" created!"</string>
+
+    <string name="pick_a_voice_file">Pick a voice</string>
+
+    <string name="voice_list">Voice list</string>
+
+    <string name="recorder_title">Voice recorder</string>
+
+    <string name="player_title">Voice list</string>
+
+    <string name="toast_pick_file">Pick file from list above</string>
+
+    <string name="delete_voice_message">Are you shore you want to delete?</string>
+
+    <string name="delete_voice_title">Delete</string>
+
+    <string name="delete_voice">Deletion</string>
+
+    <string name="cancel_deleting">Cancel</string>
+    <string name="list_empty">No records found :(</string>
+
+
+</resources>
